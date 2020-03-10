@@ -24,6 +24,7 @@ create table Animal
 	(animal_ID numeric(10, 0),
 	animal_nombre_comun varchar(50) not null,
 	animal_nombre_tecnico varchar(50) not null,
+	tamaño varchar(20) not null,
 	familia_ID numeric(10, 0),
 	primary key (animal_ID),
 	foreign key (familia_ID) references Familia); 
