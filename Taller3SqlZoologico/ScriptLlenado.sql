@@ -25,22 +25,22 @@ insert into especialidadCuidador values(8, '100´029.981', 5);
 
 
 -- Llenar Animal
-insert into Animal values(1, 'Camello Dromedario', 'Camelus Dromedarius', 1);
-insert into Animal values(2, 'Llama', 'Lama Glama', 1);
-insert into Animal values(3, 'Ocelote', 'Leopardus Pardalis', 4);
-insert into Animal values(4, 'Lemur de Sahamalza', 'Lepilemur Sahamalazensis', 5);
-insert into Animal values(5, 'Zorro Gris Suramericano', 'Lycalopex Griseus', 2);
-insert into Animal values(6, 'Zorro del Desierto Peruano', 'Lycalopex Sechuare', 2);
-insert into Animal values(7, 'Lemur Ratón Pigmeo', 'Microcebus Myonixus', 3);
-insert into Animal values(8, 'Lemur Ratón Gigante', 'Mirza Coquereli', 3);
-insert into Animal values(9, 'Zorro Orejas de Murcielago', 'Otocyon Megalotis', 2);
-insert into Animal values(10, 'León', 'Panthera Leo', 4);
-insert into Animal values(11, 'Jaguar', 'Panthera Onca', 4);
-insert into Animal values(12, 'Leopardo', 'Panthera Pardus', 4);
-insert into Animal values(13, 'Gato Manchado Oxidado', 'Prionalirius Rubiginosus', 4);
-insert into Animal values(14, 'Alpaca', 'Vicugna Pacos', 1);
-insert into Animal values(15, 'Vicuña', 'Vicugna Vicugna', 1);
-insert into Animal values(16, 'Zorro Rojo', 'Vulpes Vulpes', 2);
+insert into Animal values(1, 'Camello Dromedario', 'Camelus Dromedarius', 'Grande', 1);
+insert into Animal values(2, 'Llama', 'Lama Glama', 'Grande', 1);
+insert into Animal values(3, 'Ocelote', 'Leopardus Pardalis', 'Medio', 4);
+insert into Animal values(4, 'Lemur de Sahamalza', 'Lepilemur Sahamalazensis', 'Pequeño', 5);
+insert into Animal values(5, 'Zorro Gris Suramericano', 'Lycalopex Griseus', 'Medio', 2);
+insert into Animal values(6, 'Zorro del Desierto Peruano', 'Lycalopex Sechuare', 'Medio', 2);
+insert into Animal values(7, 'Lemur Ratón Pigmeo', 'Microcebus Myonixus', 'Muy Pequeño', 3);
+insert into Animal values(8, 'Lemur Ratón Gigante', 'Mirza Coquereli', 'Medio', 3);
+insert into Animal values(9, 'Zorro Orejas de Murciélago', 'Otocyon Megalotis', 'Medio', 2);
+insert into Animal values(10, 'León', 'Panthera Leo', 'Muy Grande', 4);
+insert into Animal values(11, 'Jaguar', 'Panthera Onca', 'Medio', 4);
+insert into Animal values(12, 'Leopardo', 'Panthera Pardus', 'Grande', 4);
+insert into Animal values(13, 'Gato Manchado Oxidado', 'Prionalirius Rubiginosus', 'Medio', 4);
+insert into Animal values(14, 'Alpaca', 'Vicugna Pacos', 'Grande',1);
+insert into Animal values(15, 'Vicuña', 'Vicugna Vicugna', 'Medio', 1);
+insert into Animal values(16, 'Zorro Rojo', 'Vulpes Vulpes', 'Medio', 2);
 
 
 -- Llenar Dieta
